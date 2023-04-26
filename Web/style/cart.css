@@ -1,0 +1,124 @@
+.header {
+  padding: 0 10%;
+  height: 60px;
+  box-shadow: 0 0.1rem 10px #dfd9d9;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+#content-body {
+  margin: 10px 10%;
+  flex-wrap: wrap;
+  margin-top: 100px !important;
+}
+.title {
+  width: 100%;
+}
+.items {
+  padding: 15px 0;
+  box-shadow: 0px 0 5px rgb(235, 232, 232);
+}
+#render-item-add img {
+  width: 150px;
+  height: 90px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+.name-pro {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.items p {
+  font-weight: 300;
+}
+.btn-action {
+  height: 30px;
+  width: 30px;
+}
+.btn-action:active {
+  background-color: antiquewhite;
+}
+.modal-box {
+  display: none !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  background-color: rgba(7, 7, 7, 0.6);
+}
+.show {
+  display: block !important;
+}
+.hide {
+  display: none !important;
+}
+#form-info {
+  font-size: small;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  border-radius: 11px;
+  background: #ffffff;
+  box-shadow: 0 1px 2px #ccc;
+}
+#message {
+  width: 100%;
+  resize: none;
+  outline: none;
+  border: 2px solid #dee2e6;
+}
+.show-list {
+  position: absolute;
+  height: 200px;
+  z-index: 9;
+}
+.close-form,
+.title-info {
+  cursor: pointer;
+  font-size: larger;
+}
+.get-address {
+  padding: 6px 12px !important;
+  border-radius: 5px;
+}
+.address-info {
+  cursor: pointer;
+}
+.address-info:hover {
+  background-color: rgb(223, 220, 220) !important;
+}
+#emty-cart {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  width: 100%;
+  top: 15%;
+}
+.show-cart {
+  position: absolute !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.hide {
+  display: none !important;
+}
+/* .notification {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  z-index: 1;
+  box-shadow: 0 0 1px rgb(0 0 0 / 10%), 0 2px 4px rgb(0 0 0 / 20%);
+  background: #fff;
+  padding: 20px;
+  color: #6a6c6f;
+  width: 300px;
+  border-left: 6px solid #62cb31;
+} */

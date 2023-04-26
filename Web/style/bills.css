@@ -1,0 +1,35 @@
+.container > div {
+  border-bottom: 1px solid rgb(220, 217, 217);
+}
+.dropdown-toggle {
+  cursor: pointer;
+}
+.table {
+  width: 800px;
+  cursor: no-drop;
+}
+.table tr {
+  padding: 30px;
+}
+.header {
+  padding: 0 10%;
+  height: 60px;
+  box-shadow: 0 0.1rem 10px #dfd9d9;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+#content-body {
+  margin: 10px 10%;
+  flex-wrap: wrap;
+  margin-top: 100px !important;
+}
+.return-product button {
+  background: cadetblue;
+  color: aliceblue;
+}
+.return-product button:active {
+  background: #a0855fb0;
+    color: #3c5366;
+}

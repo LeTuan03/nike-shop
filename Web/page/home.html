@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name
+      text-center
+      mt-2="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../style/home.css" />
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1200px-Logo_NIKE.svg.png">
+    <title>NIKE SHOP</title>
+  </head>
+  <body>
+    <div class="header d-flex justify-content-between align-items-center">
+      <a href="./home.html">
+        <div id="logo">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1200px-Logo_NIKE.svg.png"
+              alt=""
+            />
+          </div>
+        </a>
+      <!-- <div class="parent-move">  <div class="mover"></div></div> -->
+      <div id="action" class="d-flex">
+        <li><a href="./home.html" class="fs-5">HOME</a></li>
+        <li><a href="./about.html" class="fs-5">ABOUT</a></li>
+        <li><a href="./bills.html" class="fs-5">BILLS</a></li>
+        <li>
+          <a href="./cart.html" data-count="0" id="cart-number" class="fs-5"
+            ><i class="fa-solid fa-cart-shopping cart-shop"></i
+          ></a>
+        </li>
+      </div>
+      <i id="responsive-icon" class="fa-solid fa-chart-simple"></i>
+      <div id="toasts">
+        <div id="list"  class="d-flex flex-column justify-content-evenly align-items-center">
+          <div id="close" class="fs-1 fw-bold text-light position-absolute btn">&times;</div>
+          <li><a href="./home.html" class="fs-5 fw-bold text-light ani-hover">HOME</a></li>
+          <li><a href="./about.html" class="fs-5 fw-bold text-light ani-hover">ABOUT</a></li>
+          <li><a href="./bills.html" class="fs-5 fw-bold text-light ani-hover">BILLS</a></li>
+          <li>
+            <a href="./cart.html" data-count="0" id="toasts-cart-number" class="fs-5"
+              ><i class="fa-solid fa-cart-shopping text-light ani-hover"></i
+            ></a>
+          </li>
+        </div>
+      </div>
+    </div>
+    <div id="content-body" class="d-flex">
+      <!-- <div class="item">
+        <img
+          src="https://i.pinimg.com/564x/6a/6f/ab/6a6fab92b2ddb5b759e73cab69131f0e.jpg"
+          alt=""
+        />
+        <button class="add btn btn-light"><i class="fa-solid fa-cart-plus fs-5"></i></button>
+        <div class="desp">
+          <h5 class="name text-center mt-2">Nike AirForce 1 Mid 07</h5>
+          <div class="detail-product d-flex justify-content-evenly">
+            <div>
+              $
+              <span class="price">1,200</span>
+            </div>
+            <div>
+              Quanlity:
+              <span class="number-item-had">32</span>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </body>
+  <script type="module" src="../app/home.js"></script>
+  <script src="../app/common/toasts.js"></script>
+</html>
